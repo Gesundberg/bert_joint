@@ -15,7 +15,7 @@ from __future__ import print_function
 
 import gzip
 import random
-from language.question_answering.bert_joint import run_nq
+from bert_joint import run_nq
 import tensorflow as tf
 
 flags = tf.flags
